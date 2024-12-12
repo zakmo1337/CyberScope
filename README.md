@@ -1,6 +1,7 @@
 # CyberScope
 
 CyberScope is a console application designed to retrieve various system and network information and perform different tasks. Developed to provide a simple yet powerful tool for system analysis and network monitoring.
+![image](https://github.com/user-attachments/assets/4dde2ed2-0f6c-4efc-ac18-f2bcd77345dc)
 
 ## Features
 
