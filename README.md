@@ -44,6 +44,7 @@ Use the .NET CLI to build the application:
 ```bash
 dotnet build
 ```
+
 4.Run the Application:
 After building the application, you can run it using:
 ```bash
@@ -56,6 +57,48 @@ dotnet publish -c Release -r win-x64 --self-contained
 ```
 
 This command will create a self-contained application in the bin/Release/netX.0/win-x64/publish/ directory (replace netX.0 with the specific .NET version).
+# Install .NET SDK 8.0 on (Kali) Linux
+
+Follow these steps to install the .NET SDK 8.0 on Kali Linux.
+
+## Step 1: Remove old .NET SDK versions (optional)
+If you want to remove the existing .NET 6.0 version (optional), run the following command:
+```bash
+sudo apt remove dotnet-sdk-6.0
+````
+Step 2: Add Microsoft package repository
+First, install the required packages and add the Microsoft repository:
+````sudo apt install -y wget apt-transport-https software-properties-common
+wget https://packages.microsoft.com/config/ubuntu/20.04/prod.list
+sudo mv prod.list /etc/apt/sources.list.d/microsoft-prod.list
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+````
+
+Step 3: Update package lists
+Update the apt package list to include the new repository:
+
+````bash
+sudo apt update
+````
+Step 4: Install .NET SDK 8.0
+Now, install the .NET SDK 8.0:
+```bash
+sudo apt install -y dotnet-sdk-8.0
+````
+Step 5: Verify installation
+To verify that .NET SDK 8.0 was installed successfully, run:
+
+````bash
+dotnet --version
+````
+Step 6: Build your project
+After installing the .NET SDK 8.0, you can build your project. Navigate to the project directory and run:
+
+````bash
+dotnet build
+dotnet run
+````
+
 
 ### Known Issues/Limitations
 Some features are only available on Windows (e.g., WMI queries, power management).
