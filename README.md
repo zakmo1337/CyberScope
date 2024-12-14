@@ -2,7 +2,6 @@
 
 ![image](https://github.com/user-attachments/assets/4dde2ed2-0f6c-4efc-ac18-f2bcd77345dc)
 
-Here's the formatted README for GitHub with the quick copy function:
 
 ```markdown
 # CyberScope
@@ -35,13 +34,14 @@ CyberScope is a console application designed to retrieve various system and netw
 #### Clone the Repository:
 Open your terminal or command prompt and run the following command:
 
+
+
+#### Navigate to the Project Directory:
+
+Change to the directory where the repository was cloned:
 ```bash
 git clone https://github.com/zakmo1337/CyberScope.git
 ```
-
-#### Navigate to the Project Directory:
-Change to the directory where the repository was cloned:
-
 ```bash
 cd CyberScope
 ```
