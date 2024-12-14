@@ -33,24 +33,24 @@ Open your terminal or command prompt and run the following command:
 
 git clone https://github.com/zakmo1337/CyberScope.git
 
-###Navigate to the Project Directory:
+1.Navigate to the Project Directory:
 Change to the directory where the repository was cloned:
 ```bash
 cd CyberScope
 ```
 
 
-###Build the Application:
+2.Build the Application:
 Use the .NET CLI to build the application:
 ```bash
 dotnet build
 ```
-###Run the Application:
+3. Run the Application:
 After building the application, you can run it using:
 ```bash
 dotnet run
 ```
-###Publishing the Application:
+(4).Publishing the Application:
 To create a standalone executable that can be run without the .NET SDK, you can publish the application:
 ```bash
 dotnet publish -c Release -r win-x64 --self-contained
