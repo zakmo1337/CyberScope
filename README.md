@@ -19,38 +19,38 @@ Changes the system's power scheme (on Windows) between power saver, balanced, an
 Installation and Running the Application
 Prerequisites
 .NET SDK must be installed on your system.
-Steps
+###Steps
 Clone the Repository:
 Open your terminal or command prompt and run the following command:
 
 git clone https://github.com/zakmo1337/CyberScope.git
 
-Navigate to the Project Directory:
+###Navigate to the Project Directory:
 Change to the directory where the repository was cloned:
-
+```bash
 cd CyberScope
+```
 
 
-
-Build the Application:
+###Build the Application:
 Use the .NET CLI to build the application:
-
+```bash
 dotnet build
-
-Run the Application:
+```
+###Run the Application:
 After building the application, you can run it using:
-
+```bash
 dotnet run
-
-Publishing the Application:
+```
+###Publishing the Application:
 To create a standalone executable that can be run without the .NET SDK, you can publish the application:
-
+```bash
 dotnet publish -c Release -r win-x64 --self-contained
-
+```
 
 This command will create a self-contained application in the bin/Release/netX.0/win-x64/publish/ directory (replace netX.0 with the specific .NET version).
 
-Known Issues/Limitations
+### Known Issues/Limitations
 Some features are only available on Windows (e.g., WMI queries, power management).
 The port scan is a basic implementation and may not find all devices in more complex networks.
 The public IP address is retrieved via an external API, which might introduce latency.
