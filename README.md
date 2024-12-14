@@ -29,7 +29,8 @@
 ### Steps
 
 #### Clone the Repository:
-1. Open your terminal or command prompt and run the following command:
+
+1.Open your terminal or command prompt and run the following command:
 ````bash
 git clone https://github.com/zakmo1337/CyberScope.git
 ````
@@ -43,7 +44,7 @@ Use the .NET CLI to build the application:
 ```bash
 dotnet build
 ```
-4. Run the Application:
+4.Run the Application:
 After building the application, you can run it using:
 ```bash
 dotnet run
