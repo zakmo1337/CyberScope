@@ -2,25 +2,33 @@
 
 ![image](https://github.com/user-attachments/assets/4dde2ed2-0f6c-4efc-ac18-f2bcd77345dc)
 
-CyberScope
-CyberScope is a console application designed to retrieve various system and network information and perform different tasks. It was developed to provide a simple yet powerful tool for system analysis and network monitoring.
 
-Features
-System Information:
-Displays operating system version, machine name, processor count, user information, and more.
-Detailed hardware information (on Windows), including processor details, operating system version, and memory capacity.
-Network Information:
-Displays local and public IP addresses.
-Detailed information about network adapters (on Windows), including MAC address, IP address, default gateway, and DNS servers.
-Network Scan:
-Performs a simple port scan on the local network with options for a short or long scan.
-Power Management:
-Changes the system's power scheme (on Windows) between power saver, balanced, and high-performance modes.
-Installation and Running the Application
-Prerequisites
-.NET SDK must be installed on your system.
-###Steps
-Clone the Repository:
+**CyberScope** is a console application designed to retrieve various system and network information and perform different tasks. It was developed to provide a simple yet powerful tool for system analysis and network monitoring.
+
+## Features
+
+### System Information:
+- Displays **operating system version**, **machine name**, **processor count**, **user information**, and more.
+- Detailed hardware information (on **Windows**), including **processor details**, **operating system version**, and **memory capacity**.
+
+### Network Information:
+- Displays **local and public IP addresses**.
+- Detailed information about network adapters (on **Windows**), including **MAC address**, **IP address**, **default gateway**, and **DNS servers**.
+
+### Network Scan:
+- Performs a simple **port scan** on the local network with options for a short or long scan.
+
+### Power Management:
+- Changes the system's **power scheme** (on **Windows**) between **power saver**, **balanced**, and **high-performance modes**.
+
+## Installation and Running the Application
+
+### Prerequisites
+- .NET SDK must be installed on your system.
+
+### Steps
+
+#### Clone the Repository:
 Open your terminal or command prompt and run the following command:
 
 git clone https://github.com/zakmo1337/CyberScope.git
